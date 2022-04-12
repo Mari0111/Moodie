@@ -5,6 +5,8 @@ import 'package:moodie/widget/slicer/slider_color_widget.dart';
 class ScaleScreen extends StatelessWidget {
   const ScaleScreen({Key? key}) : super(key: key);
 
+  get style => null;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,6 +25,7 @@ class ScaleScreen extends StatelessWidget {
               color: Colors.white,
               child: Center(
                 child: ElevatedButton(
+                  style: style,
                   child: Text('Next'),
                   onPressed: () {
                     print('test');
