@@ -1,6 +1,6 @@
 # moodie
 
-A new Flutter project.
+Mood tracker app
 
 ## Getting Started
 
