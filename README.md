@@ -1,5 +1,4 @@
 # moodie
-
 Mood tracker app
 
 ## Getting Started
